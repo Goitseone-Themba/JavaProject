@@ -1,0 +1,5 @@
+Goitseone Themba 
+ 21000539
+Largest value: 345
+Smallest value: -5
+Average: 61
