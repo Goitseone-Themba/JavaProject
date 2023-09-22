@@ -11,7 +11,7 @@ public class fileDataAnalysis {
             BufferedReader plant = new BufferedReader(new FileReader("values.txt"));
 
             //create a dynamic array
-            ArrayList <Integer> values = new ArrayList<Integer>();
+            ArrayList <Integer> values = new ArrayList<>();
 
             //read from the files and store in the dynamic array
             String output;
