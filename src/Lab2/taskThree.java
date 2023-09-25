@@ -7,7 +7,11 @@ public class taskThree {
     public static void main(String[] args) {
         Scanner snatch = new Scanner(System.in);
 
-        System.out.println("Select an operation you would like to perform?  " + "\n1.Add two words" + "\n2.insert a string" + "\n3.Replace a character");
+        System.out.println("""
+                Select an operation you would like to perform? \s
+                1.Add two words
+                2.insert a string
+                3.Replace a character""");
         String answer = snatch.nextLine();
 
         switch (answer) {
@@ -32,7 +36,7 @@ public class taskThree {
                 System.out.println("what character do you want to insert there?");
                 String insert = snatch.nextLine();
 
-                StringBuffer result = new StringBuffer(wordOne);
+                StringBuilder result = new StringBuilder(wordOne);
 
                 result.insert(index , insert);
                 System.out.printf("The new word is: " + result);
