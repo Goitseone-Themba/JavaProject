@@ -1,4 +1,5 @@
 package Lab2;
+//21000539 Goitseone Themba
 
 import java.util.Scanner;
 public class taskFour {
